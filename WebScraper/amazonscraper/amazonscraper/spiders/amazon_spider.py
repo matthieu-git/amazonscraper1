@@ -7,6 +7,7 @@ class AmazonSpiderSpider(scrapy.Spider):
     start_urls = ['https://www.amazon.ca/s?k=avocado&qid=1574118995&ref=sr_pg_1']
 
     def parse(self, response):
+
         items = AmazonscraperItem()
 
         prod_name = response.css('.widgetId\=search-results > .s-border-bottom .a-color-base.a-text-normal').css('::text').extract()

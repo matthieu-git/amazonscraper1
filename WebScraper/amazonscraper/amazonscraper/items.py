@@ -14,4 +14,3 @@ class AmazonscraperItem(scrapy.Item):
     prod_name = scrapy.Field()
     prod_price_whole = scrapy.Field()
     prod_price_frac = scrapy.Field()
-    pass
