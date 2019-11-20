@@ -1,5 +1,4 @@
-# This program scrapes the first page of search  results for the word "avocado" on amazon.ca  
+# This program can scrape the first page of search results for the word "avocado" on amazon.ca and chapters.ca 
 
 
 
-retrieve data by running "scrapy crawl amazon" from Terminal in the folder that contains scrapy.fg 
