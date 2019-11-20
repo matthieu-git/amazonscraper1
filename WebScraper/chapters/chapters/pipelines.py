@@ -18,7 +18,7 @@ class ChaptersPipeline(object):
         self.conn = mysql.connector.connect(
             host = 'localhost',
             user = 'root',
-            passwd = 'Dfg19682!',
+            passwd = '*********',
             database = 'myavocados'
         )
         self.curr = self.conn.cursor()
